@@ -1,11 +1,12 @@
-import { Button } from "@/components/ui/button"
+import {ModeToggle} from "@/components/common/mode-toggle.tsx";
+
 
 function App() {
     return (
-        <div className="flex min-h-svh flex-col items-center justify-center">
-            <Button>Click me</Button>
-        </div>
-    )
+            <>
+                <ModeToggle/>
+            </>
+        )
 }
 
 export default App
